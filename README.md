@@ -2,8 +2,8 @@
 This is in heavy prototype stage, you will probably need to adjust the height of the support bracket.
 
 ## Components
-1.2' ST7735 based 128x160 TFT display (eg. Adafruit Color TFT LCD with SD Card breakout)
-Arduino micro or clones
+- 1.2' ST7735 based 128x160 TFT display (eg. Adafruit Color TFT LCD with SD Card breakout)
+- Arduino micro or clones (anything with SPI and more than 2kB flash should work, but the more flash and higher clocks, the bigger and more detailed animations you can upload, note that anything that's not based on Atmega32U4 MCU will have to be modified)
 
 ## Communication
 Serial port is open, available commands:
